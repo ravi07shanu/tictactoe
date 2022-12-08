@@ -105,7 +105,7 @@ def change_color(x):
         b9["state"]=DISABLED
     if (a==1):
         print(x,"Won")
-        messagebox.showinfo("showinfo", x+"   WON   ")
+        messagebox.showinfo("showinfo", x+ "   WON   ")
         y=1
     if (a==0)and(count==9):
         print("Draw")
